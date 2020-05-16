@@ -10,3 +10,8 @@
     - `setInterval()`
 - 시,분,초의 형식을 '00'으로 만들기
     - 삼항 연산자 사용
+
+### 3.3
+- **Local Storage**: 자바스크립트의 정보를 로컬에 저장하는 방법
+    - `localStorage()`
+    - <Key, Value> 형태로 사용
