@@ -66,3 +66,11 @@ TODO 삭제 구현하기
 - 배경 이미지 맨 뒤로 보내기(시계, 글자 등 뒤로 보내기)
     - 이미지 삽입(.js): `body.prepend()`
     - CSS: `z-index: -1;`
+
+
+### 3.9 Getting the Weather part One (Geolocation)
+현재 지역 날씨 정보 가져오기
+- Navigator API 사용
+    - 위도, 경도 데이터 가져오기
+- [Weather API](https://openweathermap.org/) key 가져오기
+    - 회원가입 필요
