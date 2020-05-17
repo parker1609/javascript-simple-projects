@@ -34,3 +34,14 @@
 - js 파일들의 변수명이 중복되지 않도록 주의한다.
 - js파일에서 `createElement()`로 태그를 추가할 수 있다.
 - `appendChild()`로 자식 태그에 추가할 수 있다.
+
+### 3.6 Making a To Do List part Two
+입력된 TODO 목록을 새로고침 등을 해도 계속 유지하여 출력하기
+- TODO 목록을 삭제하려면 그 정보를 알고 있어야 하므로 `TODO` 객체로 관리한다.
+    - 각 TODO는 id로 식별한다.
+- 브라우저에서 자바스크립트 정보 유지: Local Storage 사용
+    - Local Storage의 value는 string 타입만 저장 가능하다.
+    - 객체를 저장하려면 **JSON**을 사용한다.
+        - object -> string: `JSON.stringify()`
+        - string -> object: `JSON.parse()`
+- array 타입은 `array.forEach(function...)`로 사용할 수 있다.
