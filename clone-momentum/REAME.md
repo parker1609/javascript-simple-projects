@@ -45,3 +45,15 @@
         - object -> string: `JSON.stringify()`
         - string -> object: `JSON.parse()`
 - array 타입은 `array.forEach(function...)`로 사용할 수 있다.
+
+### 3.7 Making a To Do List part Three
+TODO 삭제 구현하기
+- HTML에서 TODO 목록 삭제하기
+    - TODO 삭제해야할 타겟 설정하기
+    - 해당 버튼의 부모 태그 `<li>`를 찾기: `event.target.parentNode`
+    - 부모 `<li>` 태그의 자기 자신 + 자식 태그 삭제: `.removeChild`
+- 실제 TODO 객체 삭제하기
+    - array 객체의 `filter()` 메서드를 사용하여, 삭제된 id를 필터링한다.
+    - 변견된 사항을 적용한다.
+        - TODO 목록을 관리하는 array 변경
+        - local storage 변경
