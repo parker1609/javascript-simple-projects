@@ -69,8 +69,15 @@ TODO 삭제 구현하기
 
 
 ### 3.9 Getting the Weather part One (Geolocation)
-현재 지역 날씨 정보 가져오기
+현재 지역 위치 가져오기
 - Navigator API 사용
     - 위도, 경도 데이터 가져오기
 - [Weather API](https://openweathermap.org/) key 가져오기
     - 회원가입 필요
+
+
+### 3.10 Getting the Weather part Two (API)
+현재 지역 날씨 가져오기
+- 새로고침없이 날씨 데이터 가져오기
+    - API server 요청 및 응답 처리: `fetch()`
+- API 데이터의 형식은 문서 참고
